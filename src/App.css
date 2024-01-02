@@ -1,1 +1,113 @@
+*{
+    margin: 0;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.sub-wrapper{
+   
+    width: 30vw;
+    background-color: rgb(97, 97, 97);
+    border-radius: 15px;
+    
+}
+.sub-wrapper button{
+   
+    padding: 10px 20px;
+    font-size: 2rem;
+    margin: 10px;
+   border-radius: 10px;
+    border: none;
+    
+}
+.output-screen{
+    
+    background-color: rgb(220, 220, 220);
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    text-align: end;
+    border-radius: 20px;
+    
+}
+.input-no{
+    font-size: 2rem;
+}
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.but-res{
+    background-color:rgb(255, 78, 14);
+}
+.but-div,.but-mul,.but-dif,.but-plus,.but-mod{
+    background-color: orange;
+}
+.but-clear,.but-back{
+    background-color:rgb(245, 73, 10);
+}
+button{
+    background-color: grey;
+    color: white;
+    box-shadow: 3px 3px 8px 1px black ;
+}
+.but-dif:hover,
+.but-div:hover,
+.but-mod:hover,
+.but-mul:hover,
+.but-plus:hover{
+    background-color: rgb(254, 137, 3);
+}
+button:hover{
+    background-color: rgba(156, 182, 199, 0.995);
+}
+.but-res:hover{
+    background-color: rgb(251, 65, 3);
+}
+.but-clear:hover,.but-back:hover{
+    background-color:rgb(255, 51, 0);
+}
 
+@media (max-width:667px) and (min-width:375px){
+    .sub-wrapper {
+        width: 100vw; 
+        background-color: white;
+        margin-top: 85px;
+        
+      }
+      .sub-wrapper button{
+        border-radius: 50px;
+        margin: 14px;
+        
+        
+    }
+    .output-screen{
+    
+        background-color: rgb(255, 255, 255);
+        margin: 0 5px;
+        border-radius: 0;
+        padding: 20px;
+        text-align:end;
+    
+        
+    }
+    .button-wrapper{
+       margin-bottom: 0px;
+    
+    
+    }
+    button{
+        box-shadow: none ;
+    }
+    .inpu-expr{
+        font-size: 1.5rem;
+        color: rgb(113, 110, 110);
+    }
+    
+     
+}
