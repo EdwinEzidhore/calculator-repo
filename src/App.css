@@ -73,7 +73,7 @@ button:hover{
     background-color:rgb(255, 51, 0);
 }
 
-@media (max-width:667px) and (min-width:375px){
+@media (max-width:370px) {
     .sub-wrapper {
         width: 100vw; 
         background-color: white;
@@ -82,7 +82,7 @@ button:hover{
       }
       .sub-wrapper button{
         border-radius: 50px;
-        margin: 14px;
+        margin: 7px;
         
         
     }
